@@ -1,2 +1,1 @@
-# .github
-Template repo for isssues and readme
+Hey This is AHive. Leave a message !
