@@ -1,0 +1,37 @@
+name: 🚨 Bug urgent / Critique
+description: Bug bloquant ou critique nécessitant une action immédiate
+title: "[URGENT] "
+labels: ["bug", "urgent"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **Ce template est pour les bugs bloquants en prod uniquement.**
+        Pour un bug normal, utilise plutôt 🐛 Bug.
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Qu'est-ce qui est cassé ? Qui est affecté ?
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Étapes pour reproduire
+      value: |
+        1. 
+        2. 
+    validations:
+      required: true
+  - type: textarea
+    id: workaround
+    attributes:
+      label: Contournement temporaire
+      placeholder: "Si tu en as identifié un"

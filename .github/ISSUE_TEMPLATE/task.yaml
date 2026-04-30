@@ -1,0 +1,33 @@
+name: 📋 Tâche
+description: Une tâche à faire (chore, refactor, doc, etc.)
+title: "[TASK] "
+labels: ["task"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Que faut-il faire ?
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Critères de complétion
+      description: Comment savoir que c'est fini ?
+      value: |
+        - [ ] 
+        - [ ] 
+        - [ ] 
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - Documentation
+        - Refactor
+        - Configuration
+        - Recherche
+        - Autre

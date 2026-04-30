@@ -1,0 +1,52 @@
+name: 🐛 Bug
+description: Signaler un bug ou un comportement inattendu
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Décris le bug en quelques phrases
+      placeholder: Quand je clique sur X, il se passe Y au lieu de Z...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Étapes pour reproduire
+      value: |
+        1. 
+        2. 
+        3. 
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportement attendu
+      placeholder: Ce qui devrait se passer normalement
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Comportement actuel
+      placeholder: Ce qui se passe réellement
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Gravité
+      options:
+        - Mineur (gêne occasionnelle)
+        - Modéré (gêne fréquente)
+        - Bloquant (impossible à utiliser)
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Environnement
+      placeholder: "OS, navigateur/version, etc."
