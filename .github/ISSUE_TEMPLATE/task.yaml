@@ -13,14 +13,14 @@ body:
   - type: textarea
     id: criteria
     attributes:
-      label: Critères de complétion
+      label: Critères
       description: Comment savoir que c'est fini ?
       value: |
         - [ ] 
         - [ ] 
         - [ ] 
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: type
     attributes:
