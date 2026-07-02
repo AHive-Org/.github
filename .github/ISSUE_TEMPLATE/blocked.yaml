@@ -1,23 +1,23 @@
-name: 🚧 Bloqué (dépendance externe)
-description: Tâche en attente d'un événement externe
+name: Blocked (external dependency)
+description: Task waiting on an external event
 title: "[BLOCKED] "
 labels: ["blocked"]
 body:
   - type: textarea
     id: description
     attributes:
-      label: Description de la tâche
+      label: Task description
     validations:
       required: true
   - type: textarea
     id: blocker
     attributes:
-      label: Qu'est-ce qui bloque ?
-      placeholder: "API tierce indisponible, attente de validation client, autre PR à merger..."
+      label: What's blocking it?
+      placeholder: "Third-party API unavailable, waiting on client approval, another PR to merge..."
     validations:
       required: true
   - type: input
     id: eta
     attributes:
-      label: Date estimée de déblocage
-      placeholder: "Si connue"
+      label: Estimated unblock date
+      placeholder: "If known"

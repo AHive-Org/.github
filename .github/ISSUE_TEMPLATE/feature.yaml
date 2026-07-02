@@ -1,33 +1,33 @@
-name: ✨ Feature / Amélioration
-description: Proposer une nouvelle fonctionnalité ou amélioration
+name: Feature / Enhancement
+description: Propose a new feature or enhancement
 title: "[FEATURE] "
 labels: ["enhancement"]
 body:
   - type: textarea
     id: problem
     attributes:
-      label: Problème à résoudre
-      description: Quel besoin / pain point cette feature adresse ?
+      label: Problem to solve
+      description: What need / pain point does this feature address?
     validations:
       required: true
   - type: textarea
     id: solution
     attributes:
-      label: Solution proposée
-      description: Décris la fonctionnalité souhaitée
+      label: Proposed solution
+      description: Describe the desired functionality
     validations:
       required: true
   - type: textarea
     id: alternatives
     attributes:
-      label: Alternatives envisagées
-      placeholder: Autres approches que tu as considérées
+      label: Alternatives considered
+      placeholder: Other approaches you've considered
   - type: dropdown
     id: priority
     attributes:
-      label: Priorité estimée
+      label: Estimated priority
       options:
         - Nice to have
-        - Utile
+        - Useful
         - Important
-        - Critique
+        - Critical

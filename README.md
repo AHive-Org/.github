@@ -4,25 +4,25 @@ Shared GitHub configuration applied to **every repo** in this organization. When
 
 ## Contents
 
-- **`ISSUE_TEMPLATE/`** — 5 issue templates (bug, urgent bug, feature, task, blocked) with auto-applied labels
-- **`PULL_REQUEST_TEMPLATE.md`** — default PR description with checklist
+- **`ISSUE_TEMPLATE/`**: 5 issue templates (bug, urgent bug, feature, task, blocked) with auto-applied labels
+- **`PULL_REQUEST_TEMPLATE.md`**: default PR description with checklist
 
 ## Required labels
 
-Templates apply these labels — make sure they exist on each repo (Issues → Labels):
+Templates apply these labels, so make sure they exist on each repo (Issues > Labels):
 
 `bug`, `urgent`, `enhancement`, `task`, `blocked`, `in-progress`
 
 ## Discord integration
 
 Issues and PRs flow to Discord via a Cloudflare Worker:
-- **Issues** → `#todos` forum, with status tags driven by labels & state
-- **Other events** → `#github-feed` channel
+- **Issues** go to the `#todos` forum, with status tags driven by labels and state
+- **Other events** go to the `#github-feed` channel
 
 Picking the right issue template auto-tags the Discord post correctly.
 
 ## Updating
 
-Edit any file on `main` — changes propagate immediately to all org repos.
+Edit any file on `main` and changes propagate immediately to all org repos.
 
-> ⚠️ This repo must stay **public** for GitHub to propagate templates. It contains no sensitive data.
+> This repo must stay **public** for GitHub to propagate templates. It contains no sensitive data.

@@ -1,5 +1,5 @@
-name: 📋 Tâche
-description: Une tâche à faire (chore, refactor, doc, etc.)
+name: Task
+description: A task to do (chore, refactor, doc, etc.)
 title: "[TASK] "
 labels: ["task"]
 body:
@@ -7,18 +7,18 @@ body:
     id: description
     attributes:
       label: Description
-      description: Que faut-il faire ?
+      description: What needs to be done?
     validations:
       required: true
   - type: textarea
     id: criteria
     attributes:
-      label: Critères
-      description: Comment savoir que c'est fini ?
+      label: Acceptance criteria
+      description: How do we know it's done?
       value: |
-        - [ ] 
-        - [ ] 
-        - [ ] 
+        - [ ]
+        - [ ]
+        - [ ]
     validations:
       required: false
   - type: dropdown
@@ -29,5 +29,5 @@ body:
         - Documentation
         - Refactor
         - Configuration
-        - Recherche
-        - Autre
+        - Research
+        - Other
