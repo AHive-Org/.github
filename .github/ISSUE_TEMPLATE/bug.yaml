@@ -1,5 +1,5 @@
 name: 🐛 Bug
-description: Signaler un bug ou un comportement inattendu
+description: Report a bug or unexpected behavior
 title: "[BUG] "
 labels: ["bug"]
 body:
@@ -7,46 +7,46 @@ body:
     id: description
     attributes:
       label: Description
-      description: Décris le bug en quelques phrases
-      placeholder: Quand je clique sur X, il se passe Y au lieu de Z...
+      description: Describe the bug in a few sentences
+      placeholder: When I click X, Y happens instead of Z...
     validations:
       required: true
   - type: textarea
     id: steps
     attributes:
-      label: Étapes pour reproduire
+      label: Steps to reproduce
       value: |
-        1. 
-        2. 
-        3. 
+        1.
+        2.
+        3.
     validations:
       required: true
   - type: textarea
     id: expected
     attributes:
-      label: Comportement attendu
-      placeholder: Ce qui devrait se passer normalement
+      label: Expected behavior
+      placeholder: What should normally happen
     validations:
       required: true
   - type: textarea
     id: actual
     attributes:
-      label: Comportement actuel
-      placeholder: Ce qui se passe réellement
+      label: Actual behavior
+      placeholder: What actually happens
     validations:
       required: true
   - type: dropdown
     id: severity
     attributes:
-      label: Gravité
+      label: Severity
       options:
-        - Mineur (gêne occasionnelle)
-        - Modéré (gêne fréquente)
-        - Bloquant (impossible à utiliser)
+        - Minor (occasional annoyance)
+        - Moderate (frequent annoyance)
+        - Blocking (unusable)
     validations:
       required: true
   - type: input
     id: env
     attributes:
-      label: Environnement
-      placeholder: "OS, navigateur/version, etc."
+      label: Environment
+      placeholder: "OS, browser/version, etc."
