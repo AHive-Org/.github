@@ -1,24 +1,24 @@
-# 🚀 Release [Version Number / Name]
+# Release [Version Number / Name]
 
-## 📝 Summary
+## Summary
 [A short sentence explaining what this release brings. Example: "This version finalizes the mobile navigation flow for the prototype."]
 
-## 📋 Changelog
-### ✨ New Features / Enhancements
+## Changelog
+### New Features / Enhancements
 - [ ] [Feature A]
 - [ ] [Feature B]
 
-### 🐛 Bug Fixes
+### Bug Fixes
 - [ ] [Fix for loading issue]
 
-### 🛠️ Technical Changes
+### Technical Changes
 - [ ] [Refactoring or dependency updates]
 
-## 🧪 Prototype Status
+## Prototype Status
 - [ ] **User Testing:** [To Do / Validated / In Progress]
 - [ ] **Performance:** [Stable / Experimental]
 
-## 🔗 Related Documentation
+## Related Documentation
 - [Link to your Outline page]
 
 ---

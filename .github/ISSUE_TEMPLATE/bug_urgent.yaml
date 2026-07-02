@@ -1,4 +1,4 @@
-name: 🚨 Urgent / Critical bug
+name: Urgent / Critical bug
 description: Blocking or critical bug requiring immediate action
 title: "[URGENT] "
 labels: ["bug", "urgent"]
@@ -6,8 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        ⚠️ **This template is for blocking production bugs only.**
-        For a normal bug, use 🐛 Bug instead.
+        **This template is for blocking production bugs only.**
+        For a normal bug, use the Bug template instead.
   - type: textarea
     id: impact
     attributes:

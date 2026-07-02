@@ -1,4 +1,4 @@
-name: 📋 Task
+name: Task
 description: A task to do (chore, refactor, doc, etc.)
 title: "[TASK] "
 labels: ["task"]

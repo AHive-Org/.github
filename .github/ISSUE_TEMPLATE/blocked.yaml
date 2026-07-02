@@ -1,4 +1,4 @@
-name: 🚧 Blocked (external dependency)
+name: Blocked (external dependency)
 description: Task waiting on an external event
 title: "[BLOCKED] "
 labels: ["blocked"]
