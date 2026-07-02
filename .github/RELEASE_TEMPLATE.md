@@ -19,7 +19,6 @@
 - [ ] **Performance:** [Stable / Experimental]
 
 ## Related Documentation
-- [Link to your Outline page]
 
 ---
 *If you encountered any issues with this version, please open an [Issue](https://github.com/your-repo/issues/new).*
