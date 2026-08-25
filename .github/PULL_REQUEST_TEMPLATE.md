@@ -21,6 +21,12 @@ Use a keyword to auto-link (and auto-close on merge):
 Closes #
 
 
+## Component(s) affected
+
+<!-- Which part(s) of the repo does this touch? Free text — name whatever this repo uses
+     (a package, a service, a module, ...). -->
+
+
 ## Type of change
 
 <!-- Check all that apply -->
